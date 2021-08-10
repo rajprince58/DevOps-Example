@@ -35,6 +35,7 @@ node {
       echo "Docker Image Tag Name: ${dockerImageTag}"
 	  
 	  //sh "docker stop devopsexample"
+	    sh "docker rm -f devopsexample || true"
 	  
 	  //sh "docker rm devopsexample"
 	  
